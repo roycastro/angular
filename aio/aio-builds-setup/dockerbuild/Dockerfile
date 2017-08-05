@@ -160,7 +160,7 @@ RUN yarn install --production
 
 
 # Set up health check
-HEALTHCHECK --interval=5m CMD /usr/local/bin/aio-health-check
+#HEALTHCHECK --interval=5m CMD /usr/local/bin/aio-health-check
 
 
 # Go!
